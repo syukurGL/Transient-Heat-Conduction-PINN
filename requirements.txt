@@ -1,0 +1,18 @@
+# Core Python dependencies
+numpy
+pandas
+matplotlib
+tqdm
+
+# FTCS GPU acceleration
+cupy-cuda12x
+
+# PINN framework and automatic differentiation
+jax
+flax
+optax
+
+# Computational environment
+# The scripts are designed to run in Google Colab with GPU acceleration.
+# JAX GPU support should be installed according to the CUDA version
+# available in the execution environment.
