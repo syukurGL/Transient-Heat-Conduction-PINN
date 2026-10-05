@@ -1,4 +1,4 @@
-# Transient Heat Conduction with Physics-Informed Neural Networks
+# Accuracy and Computational Cost of Standard and Sequential Time-Window Physics-Informed Neural Networks for Transient Heat Conduction with a Moving Gaussian Heat Source
 
 Source code accompanying the study on transient heat conduction with a moving Gaussian heat source using finite-difference and Physics-Informed Neural Network (PINN) approaches.
 
