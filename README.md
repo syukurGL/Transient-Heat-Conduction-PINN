@@ -10,7 +10,7 @@ The study investigates a two-dimensional transient heat conduction problem with 
 
 Three computational approaches are implemented:
 
-1. **FTCS** — Forward Time-Centered Space finite-difference method used as the numerical reference solution.
+1. **FTCS** — Forward-Time Central-Space finite-difference method used as the numerical reference solution.
 2. **Standard PINN** — Physics-Informed Neural Network trained over the complete temporal domain.
 3. **Sequential Time-Window PINN** — sequential PINN trained over 10 temporal windows with parameter transfer and temporal information transfer between consecutive windows.
 
