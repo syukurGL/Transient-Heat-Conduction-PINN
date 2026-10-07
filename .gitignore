@@ -1,0 +1,77 @@
+# ================================
+# Python
+# ================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# ================================
+# Jupyter / Google Colab
+# ================================
+.ipynb_checkpoints/
+
+# ================================
+# OS / Editor
+# ================================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ================================
+# Environment / Secrets
+# ================================
+.env
+*.env
+*.key
+*.pem
+credentials*.json
+service-account*.json
+
+# ================================
+# Logs
+# ================================
+*.log
+
+# ================================
+# Training Checkpoints
+# ================================
+checkpoints/
+checkpoint/
+*.ckpt
+*.pt
+*.pth
+*.pkl
+*.pickle
+*.safetensors
+
+# ================================
+# Training Outputs
+# ================================
+outputs/
+results/
+runs/
+wandb/
+tensorboard/
+
+# ================================
+# Large Numerical Data
+# ================================
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.mat
+
+# ================================
+# Temporary Files
+# ================================
+tmp/
+temp/
