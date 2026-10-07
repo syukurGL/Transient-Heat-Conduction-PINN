@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+title: "Accuracy and Computational Cost of Standard and Sequential Time-Window Physics-Informed Neural Networks for Transient Heat Conduction with a Moving Gaussian Heat Source"
+message: "If you use this software in your research, please cite this repository."
+type: software
+authors:
+  - given-names: "Syukur Rahmat"
+    family-names: "Gulo"
+  - given-names: "Rian"
+    family-names: "Hidayatillah"
+  - given-names: "Kasih Indah"
+    family-names: "Zebua"
+  - given-names: "Susi"
+    family-names: "Komalasari"
+  - given-names: "Selestina Yulita Merit"
+    family-names: "Bame"
+  - given-names: "Andrian"
+  - given-names: "Afris"
+    family-names: "Killa"
+  - given-names: "Meita Puteri"
+    family-names: "Handayani"
+  - given-names: "Ferdian Yudha"
+    family-names: "Ranadya"
+repository-code: "https://github.com/syukurGL/Transient-Heat-Conduction-PINN"
+license: MIT
+keywords:
+  - transient heat conduction
+  - moving Gaussian heat source
+  - physics-informed neural networks
+  - sequential time-window PINN
+  - FTCS
+  - numerical heat transfer
+  - computational heat transfer
