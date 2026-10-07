@@ -104,7 +104,7 @@ The computational domain is a two-dimensional rectangular domain with:
 - Width: 17 mm
 - Simulation time: 10 s
 - Initial temperature: 20 °C
-- Scanning speeds: 1, 2, and 3 mm/s
+- Scanning speeds: 1, 2, and 3 mm s⁻¹
 
 The heat input is represented by a moving Gaussian heat source.
 
@@ -138,6 +138,9 @@ Hidden layers:      8
 Neurons per layer:  128
 Activation:         tanh
 Output:             Temperature
+Optimizer:           Adam
+Learning rate:       10⁻³
+Total epochs:        80,000
 ```
 
 The governing equation, initial condition, and boundary conditions are incorporated into the physics-informed loss.
