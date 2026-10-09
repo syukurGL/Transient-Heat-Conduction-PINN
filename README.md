@@ -6,7 +6,7 @@ Source code accompanying the study on transient heat conduction with a moving Ga
 
 This repository contains the source code used for the numerical simulations, PINN training, sequential time-window training, and computational analyses presented in the associated study.
 
-The study investigates a two-dimensional transient heat conduction problem with a moving Gaussian heat source at scanning speeds of 1, 2, and 3 mm/s over a simulation period of 10 s.
+The study investigates a two-dimensional transient heat conduction problem with a moving Gaussian heat source at scanning speeds of 1, 2, and 3 mm s⁻¹ over a simulation period of 10 s.
 
 Three computational approaches are implemented:
 
@@ -36,7 +36,7 @@ Implementation of the GPU-accelerated FTCS solver for the two-dimensional transi
 
 The implementation includes:
 
-- scanning speeds of 1, 2, and 3 mm/s;
+- scanning speeds of 1, 2, and 3 mm s⁻¹;
 - grid resolutions of 100 × 100, 200 × 200, 300 × 300, 400 × 400, and 500 × 500;
 - Fourier-number-based stability assessment;
 - time-step determination based on the numerical stability criterion;
