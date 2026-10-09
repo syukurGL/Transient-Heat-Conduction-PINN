@@ -239,5 +239,5 @@ The publication citation will be added when the article's bibliographic informat
 
 This software is released under the MIT License. You are free to use, modify, and distribute the source code in accordance with the terms of the license.
 
-See the LICENSE file for the full license text.
+See the [LICENSE](LICENSE) file for the full license text.
 
