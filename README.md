@@ -206,11 +206,11 @@ For complete reproduction of the reported results, the source code should be use
 
 ## Data Availability
 
-The numerical results and datasets generated using the source code will be archived separately in Zenodo.
+The numerical results and datasets generated in this study are archived in Zenodo.
 
-The planned dataset includes FTCS, Standard PINN, and Sequential Time-Window PINN results, including temperature fields, centerline profiles, training histories, computational-time data, comparison data, and publication figures.
+The dataset includes FTCS, Standard PINN, and Sequential Time-Window PINN results, including temperature fields, centerline profiles, training histories, computational-time data, comparison data, and publication figures.
 
-Zenodo DOI: To be added after the dataset is published.
+Dataset DOI: https://doi.org/10.5281/zenodo.23218398
 
 
 ## Software Availability
