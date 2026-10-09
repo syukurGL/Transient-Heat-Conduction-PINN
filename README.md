@@ -175,17 +175,14 @@ The source codes are implemented in Python.
 
 The computational implementations use:
 
--CuPy for GPU-accelerated FTCS calculations;
-
--JAX for PINN training and automatic differentiation;
-
--Optax for PINN optimization; and
-
--Google Colab as the computational environment.
+- **CuPy** for GPU-accelerated FTCS calculations;
+- **JAX** for PINN training and automatic differentiation;
+- **Optax** for PINN optimization; and
+- **Google Colab** as the computational environment.
 
 The reported computational experiments were performed using an NVIDIA Tesla T4 GPU.
 
-The required Python packages are listed in requirements.txt. Package versions and GPU compatibility should be verified against the computational environment used for the reported experiments.
+The required Python packages are listed in `requirements.txt`. Package versions and GPU compatibility should be verified against the computational environment used for the reported experiments.
 
 ## Reproducibility
 
