@@ -223,7 +223,7 @@ Software DOI: To be added after the Zenodo archive is published.
 
 ## Citation
 
-If you use this source code or reproduce the computational results reported in the associated study, please cite the corresponding publication and software archive when available.
+Please use the software citation metadata in [`CITATION.cff`](CITATION.cff). A version-specific citation with the Zenodo DOI will be added after the software archive is published.****
 
 ### Publication
 
