@@ -175,13 +175,13 @@ The source codes are implemented in Python.
 
 The computational implementations use:
 
-CuPy for GPU-accelerated FTCS calculations;
+-CuPy for GPU-accelerated FTCS calculations;
 
-JAX for PINN training and automatic differentiation;
+-JAX for PINN training and automatic differentiation;
 
-Optax for PINN optimization; and
+-Optax for PINN optimization; and
 
-Google Colab as the computational environment.
+-Google Colab as the computational environment.
 
 The reported computational experiments were performed using an NVIDIA Tesla T4 GPU.
 
@@ -194,7 +194,7 @@ The source codes in this repository correspond to the computational procedures u
 The implementations include functionality for:
 
 - numerical stability assessment;
-- grid-convergence analysis;
+- grid-resolution sensitivity assessment;
 - PINN training;
 - checkpointing and restart;
 - loss-history recording;
@@ -210,28 +210,30 @@ The numerical results and datasets generated in this study are archived in Zenod
 
 The dataset includes FTCS, Standard PINN, and Sequential Time-Window PINN results, including temperature fields, centerline profiles, training histories, computational-time data, comparison data, and publication figures.
 
-Dataset DOI: https://doi.org/10.5281/zenodo.23218398
+**Dataset DOI:** https://doi.org/10.5281/zenodo.23218398
 
 
 ## Software Availability
 
-The source code for this study is available through GitHub. A version-specific software archive and DOI will be added after the software is archived in Zenodo.
+The source code for this study is available through GitHub.
 
-GitHub Repository: https://github.com/syukurGL/Transient-Heat-Conduction-PINN
-
-Software DOI: To be added after the Zenodo archive is published.
+**GitHub Repository:** https://github.com/syukurGL/Transient-Heat-Conduction-PINN
 
 ## Citation
 
-Please use the software citation metadata in [`CITATION.cff`](CITATION.cff). A version-specific citation with the Zenodo DOI will be added after the software archive is published.****
+If you use this source code or reproduce the computational results reported in this study, please cite the repository and the associated dataset.
 
-### Publication
+### Dataset
 
-The publication citation will be added when the article's bibliographic information is available.
+Gulo, S. R., Hidayatillah, R., Zebua, K. I., Komalasari, S., Bame, S. Y. M., Andrian, Killa, A., Handayani, M. P., & Ranadya, F. Y. (2026). *Accuracy and Computational Cost of Standard and Sequential Time-Window Physics-Informed Neural Networks for Transient Heat Conduction with a Moving Gaussian Heat Source* (Version 1.0.0) [Dataset]. Zenodo. https://doi.org/10.5281/zenodo.23218398
 
 ### Software
 
-Please use the software citation metadata in CITATION.cff. A version-specific citation with the Zenodo DOI will be added after the software archive is published
+Please use the citation metadata provided in [`CITATION.cff`](CITATION.cff) when citing this software repository.
+
+### Publication
+
+The publication citation will be added when the article's bibliographic information becomes available.
 
 ## License
 
