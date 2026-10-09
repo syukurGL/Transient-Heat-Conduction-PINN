@@ -231,7 +231,7 @@ If you use this source code or reproduce the computational results reported in t
 
 ## License
 
-This software is distributed under the MIT License.
+This software is released under the MIT License. You are free to use, modify, and distribute the source code in accordance with the terms of the license.
 
-See the `LICENSE` file for the full license text.
+See the LICENSE file for the full license text.
 
