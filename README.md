@@ -18,7 +18,7 @@ Three computational approaches are implemented:
 
 ```text
 Transient-Heat-Conduction-PINN/
-│
+├── .gitignore
 ├── ftcs.py
 ├── pinn_standard.py
 ├── sequential_time_window_pinn.py
@@ -44,7 +44,7 @@ The implementation includes:
 - temperature-field output;
 - centerline temperature extraction;
 - time-history analysis; and
-- grid-convergence analysis.
+- grid-resolution sensitivity assessment.
 
 ### `pinn_standard.py`
 
@@ -175,14 +175,17 @@ The source codes are implemented in Python.
 
 The computational implementations use:
 
-- **CuPy** for GPU-accelerated FTCS calculations;
-- **JAX** for PINN training and automatic differentiation;
-- **Optax** for PINN optimization; and
-- **Google Colab** as the computational environment.
+CuPy for GPU-accelerated FTCS calculations;
+
+JAX for PINN training and automatic differentiation;
+
+Optax for PINN optimization; and
+
+Google Colab as the computational environment.
 
 The reported computational experiments were performed using an NVIDIA Tesla T4 GPU.
 
-The required Python packages and versions are provided in `requirements.txt`.
+The required Python packages are listed in requirements.txt. Package versions and GPU compatibility should be verified against the computational environment used for the reported experiments.
 
 ## Reproducibility
 
@@ -203,31 +206,32 @@ For complete reproduction of the reported results, the source code should be use
 
 ## Data Availability
 
-The numerical results and datasets generated using the source code are archived separately in Zenodo.
+The numerical results and datasets generated using the source code will be archived separately in Zenodo.
 
-The associated dataset contains FTCS, Standard PINN, and Sequential Time-Window PINN results, including temperature fields, centerline profiles, training histories, computational-time data, comparison data, and publication figures.
+The planned dataset includes FTCS, Standard PINN, and Sequential Time-Window PINN results, including temperature fields, centerline profiles, training histories, computational-time data, comparison data, and publication figures.
 
-**Zenodo DOI:** `[TO BE ADDED]`
+Zenodo DOI: To be added after the dataset is published.
+
 
 ## Software Availability
 
-The source code used in this study is openly available through GitHub and archived in Zenodo.
+The source code for this study is available through GitHub. A version-specific software archive and DOI will be added after the software is archived in Zenodo.
 
-**GitHub:** `[TO BE ADDED]`
+GitHub Repository: https://github.com/syukurGL/Transient-Heat-Conduction-PINN
 
-**Software DOI:** `[TO BE ADDED]`
+Software DOI: To be added after the Zenodo archive is published.
 
 ## Citation
 
-If you use this source code or reproduce the computational results reported in the associated study, please cite the corresponding publication and software archive.
+If you use this source code or reproduce the computational results reported in the associated study, please cite the corresponding publication and software archive when available.
 
 ### Publication
 
-> `[Publication citation to be added after publication.]`
+The publication citation will be added when the article's bibliographic information is available.
 
 ### Software
 
-> `[Software citation to be added after the Zenodo archive is created.]`
+Please use the software citation metadata in CITATION.cff. A version-specific citation with the Zenodo DOI will be added after the software archive is published
 
 ## License
 
